@@ -1,0 +1,12 @@
+<div class="row">
+        {{#each trackData}}
+            <img src="{{images.0.url}}">
+            <p>{{name}}</p>
+            <audio
+        controls
+        src="{{preview_url}}">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+        {{/each}}
+</div>
